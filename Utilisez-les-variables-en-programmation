@@ -71,7 +71,8 @@ Des problèmes du monde réel avec des solutions de programmation ! 💻 Eh oui,
 
 Les règles arithmétiques habituelles s'appliquent en code ! Et notamment l'ordre d'exécution !
 
-Tout comme en mathématiques, vous pouvez utiliser des parenthèses pour décider de ce qui se passe, et quand. Voyons comment vous pouvez atteindre votre objectif en Java :
+Tout comme en mathématiques, vous pouvez utiliser des parenthèses pour décider de ce qui se passe, et quand. Voyons comment vous pouvez atteindre votre objectif en 
+Java :
 
 public class MyVariable {
 
@@ -164,7 +165,9 @@ Quels autres types de valeurs pouvons-nous affecter aux variables ?
 
 La bonne nouvelle, c'est que nous pouvons stocker n'importe quel type de donnée dans des variables ! 😀
 
-Jusqu'à présent, vous avez vu les composantes suivantes d'une variable : nom et valeur. Enfin, pour pouvoir stocker différents contenus dans les boîtes (ou bocaux), vous devez définir le type de la variable. Tout comme le stockage de l'argent nécessite un conteneur différent de celui d'un livre, différentes variables utilisent également un espace de stockage différent en fonction de leur type.
+Jusqu'à présent, vous avez vu les composantes suivantes d'une variable : nom et valeur. Enfin, pour pouvoir stocker différents contenus dans les boîtes (ou bocaux), 
+vous devez définir le type de la variable. Tout comme le stockage de l'argent nécessite un conteneur différent de celui d'un livre, différentes variables utilisent 
+également un espace de stockage différent en fonction de leur type.
 
 Supposons que vous soyez en train de travailler sur une application d'écriture et que vous ayez besoin d'analyser du texte et de calculer ce qui suit :
 
@@ -220,16 +223,22 @@ int numberOfVowels = 0
 
 double percentageOfVowels = 0.0
 
-Veuillez noter que lorsque vous affectez une valeur à une variable lors de sa déclaration, vous devez indiquer explicitement le type de variable dont il s'agit. Pour ce faire, ajoutez le type dans votre déclaration en utilisant les mots clés int, String ou double dans notre cas ci-dessus.
+Veuillez noter que lorsque vous affectez une valeur à une variable lors de sa déclaration, vous devez indiquer explicitement le type de variable dont il s'agit. 
+Pour ce faire, ajoutez le type dans votre déclaration en utilisant les mots clés int, String ou double dans notre cas ci-dessus.
 Découvrez des variables qui ne changent jamais
 
-Jusqu'à présent, la plupart des valeurs changeaient en fonction des circonstances (ajouter de l'argent aux économies, augmenter le nombre de voyelles). Certaines valeurs, cependant, n'ont pas besoin d'être modifiées. Elles restent exactement telles qu'elles ont été définies au départ. Une variable avec une valeur qui ne change pas s'appelle une constante. Tout comme les autres variables, les constantes sont décrites par trois composantes : nom, valeur et type. La seule différence est qu'une fois que vous l'avez définie, la valeur d'une constante ne peut plus être modifiée.
+Jusqu'à présent, la plupart des valeurs changeaient en fonction des circonstances (ajouter de l'argent aux économies, augmenter le nombre de voyelles). 
+Certaines valeurs, cependant, n'ont pas besoin d'être modifiées. Elles restent exactement telles qu'elles ont été définies au départ. Une variable avec une valeur 
+qui ne change pas s'appelle une constante. Tout comme les autres variables, les constantes sont décrites par trois composantes : nom, valeur et type. 
+La seule différence est qu'une fois que vous l'avez définie, la valeur d'une constante ne peut plus être modifiée.
 
 L'utilisation de constantes est utile pour deux raisons :
 
-    Elles permettent aux programmes d'être plus rapides. L'ordinateur sait combien d'espace une constante prend. Cela signifie que lorsqu'il effectue des opérations, il n'a pas besoin de vérifier les valeurs alternatives.
+    Elles permettent aux programmes d'être plus rapides. L'ordinateur sait combien d'espace une constante prend. Cela signifie que lorsqu'il effectue des opérations, 
+    il n'a pas besoin de vérifier les valeurs alternatives.
 
-    Vérifiez que certaines valeurs ne changent pas, que ce soit intentionnellement ou par accident. Par exemple, vous ne voudriez pas modifier les jours de la semaine ou le nombre de jours dans une année. 📅
+    Vérifiez que certaines valeurs ne changent pas, que ce soit intentionnellement ou par accident. Par exemple, vous ne voudriez pas modifier les jours de la semaine 
+    ou le nombre de jours dans une année. 📅
 
 Lorsque vous codez, il est recommandé d'utiliser des constantes dans la mesure du possible.
 
@@ -244,7 +253,8 @@ int numberOfPets = 1;
 
 String currentSeason = "Winter";
 
-Il y a des variables et des constantes dans l'exemple ci-dessus. Si vous essayez de modifier les valeurs de toutes ces variables, seules les variables passeront et les constantes généreront des erreurs :
+Il y a des variables et des constantes dans l'exemple ci-dessus. Si vous essayez de modifier les valeurs de toutes ces variables, seules les variables passeront 
+et les constantes généreront des erreurs :
 
 numberOfWeekdays = numberOfWeekdays + 1; // Error
 
@@ -255,4 +265,7 @@ numberOfPets = 3; // Ok
 
 currentSeason = "Summer"; // Ok
 
-Si vous regardez le fonctionnement des variables dans différents langages de programmation, vous allez probablement remarquer quelques différences. Il est important de les connaître lorsque vous commencez à programmer dans un environnement spécifique. Cependant, vous observerez aussi beaucoup de similitudes. Bien que les variables puissent sembler différentes d'un langage à l'autre, les concepts restent les mêmes. Ne l'oubliez pas si vous décidez de commencer à programmer dans un autre langage.
+Si vous regardez le fonctionnement des variables dans différents langages de programmation, vous allez probablement remarquer quelques différences. Il est important 
+de les connaître lorsque vous commencez à programmer dans un environnement spécifique. Cependant, vous observerez aussi beaucoup de similitudes. 
+Bien que les variables puissent sembler différentes d'un langage à l'autre, les concepts restent les mêmes. Ne l'oubliez pas si vous décidez de commencer à programmer
+dans un autre langage.
